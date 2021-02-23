@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PriorityBooster", "PriorityBooster.vcxproj", "{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserModeClient", "UserModeClient", "{23B85454-8E74-401C-9C0C-DC4480342299}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Booster", "..\Booster\Booster.vcxproj", "{43E1D440-75AA-40B2-925E-A274A4FB6AB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}.Debug|ARM.ActiveCfg = Debug|ARM
+		{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}.Debug|ARM.Build.0 = Debug|ARM
+		{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}.Debug|ARM.Deploy.0 = Debug|ARM
+		{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}.Debug|ARM64.Build.0 = Debug|ARM64
+		{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}.Debug|x64.ActiveCfg = Debug|x64
+		{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}.Debug|x64.Build.0 = Debug|x64
+		{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}.Debug|x64.Deploy.0 = Debug|x64
+		{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}.Debug|x86.ActiveCfg = Debug|Win32
+		{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}.Debug|x86.Build.0 = Debug|Win32
+		{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}.Debug|x86.Deploy.0 = Debug|Win32
+		{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}.Release|ARM.ActiveCfg = Release|ARM
+		{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}.Release|ARM.Build.0 = Release|ARM
+		{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}.Release|ARM.Deploy.0 = Release|ARM
+		{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}.Release|ARM64.ActiveCfg = Release|ARM64
+		{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}.Release|ARM64.Build.0 = Release|ARM64
+		{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}.Release|ARM64.Deploy.0 = Release|ARM64
+		{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}.Release|x64.ActiveCfg = Release|x64
+		{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}.Release|x64.Build.0 = Release|x64
+		{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}.Release|x64.Deploy.0 = Release|x64
+		{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}.Release|x86.ActiveCfg = Release|Win32
+		{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}.Release|x86.Build.0 = Release|Win32
+		{EAB19FE2-56E8-4C9A-A2EB-7B75461E01CB}.Release|x86.Deploy.0 = Release|Win32
+		{43E1D440-75AA-40B2-925E-A274A4FB6AB0}.Debug|ARM.ActiveCfg = Debug|Win32
+		{43E1D440-75AA-40B2-925E-A274A4FB6AB0}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{43E1D440-75AA-40B2-925E-A274A4FB6AB0}.Debug|x64.ActiveCfg = Debug|x64
+		{43E1D440-75AA-40B2-925E-A274A4FB6AB0}.Debug|x64.Build.0 = Debug|x64
+		{43E1D440-75AA-40B2-925E-A274A4FB6AB0}.Debug|x86.ActiveCfg = Debug|Win32
+		{43E1D440-75AA-40B2-925E-A274A4FB6AB0}.Debug|x86.Build.0 = Debug|Win32
+		{43E1D440-75AA-40B2-925E-A274A4FB6AB0}.Release|ARM.ActiveCfg = Release|Win32
+		{43E1D440-75AA-40B2-925E-A274A4FB6AB0}.Release|ARM64.ActiveCfg = Release|Win32
+		{43E1D440-75AA-40B2-925E-A274A4FB6AB0}.Release|x64.ActiveCfg = Release|x64
+		{43E1D440-75AA-40B2-925E-A274A4FB6AB0}.Release|x64.Build.0 = Release|x64
+		{43E1D440-75AA-40B2-925E-A274A4FB6AB0}.Release|x86.ActiveCfg = Release|Win32
+		{43E1D440-75AA-40B2-925E-A274A4FB6AB0}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{43E1D440-75AA-40B2-925E-A274A4FB6AB0} = {23B85454-8E74-401C-9C0C-DC4480342299}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62455AAB-506D-4518-BB4B-324F80A278FE}
+	EndGlobalSection
+EndGlobal
